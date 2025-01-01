@@ -1,0 +1,83 @@
+.container {
+    padding: 24px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  input {
+    background-color: #f7fafc;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #2d3748;
+  }
+  
+  input:focus {
+    border-color: #3182ce;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(49, 130, 206, 0.4);
+  }
+  
+  button {
+    background-color: #2d3748;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .link-container {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+    justify-content: center;
+  }
+  
+  .link-container a {
+    color: #3182ce;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .link-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: #e53e3e;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  

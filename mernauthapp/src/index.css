@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Custom Tailwind Classes */
+.input {
+    @apply bg-slate-100 p-3 rounded-lg border-2 border-transparent focus:border-blue-500 focus:ring-2 focus:ring-blue-300;
+  }
+  
+  .btn-submit {
+    @apply bg-blue-600 text-white p-3 rounded-lg uppercase font-semibold hover:bg-blue-700 disabled:bg-gray-400;
+  }
+  
+  .input-group {
+    @apply flex flex-col gap-2;
+  }
+  
